@@ -26,6 +26,11 @@ pub fn describe(value: impl Summary){
   value.summarize();
 }
 
+// Serves Same function as above, is more verbose
+pub fn _describe_trait_bound<T: Summary>(value: T){
+  value.summarize();
+}
+
 pub fn _example1(){
   let user1 = User{
     name: String::from("Aryan Rai"),
