@@ -16,12 +16,12 @@ fn main() {
 
     for i in 0..length_arr{
         let mut input = String::new();
-        print!("Enter element number {i}: ");
         io::stdin().read_line(&mut input).expect("Error in reading line");
         let input: i32 = input.trim().parse().expect("Integer input accepted only!");
         arr.push(input);
     }
-
     
+    let final_result = vector_examples::even_filter(arr);
+    println!("{:?}", final_result);
 }
 
