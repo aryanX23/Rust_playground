@@ -97,9 +97,14 @@ pub fn _example7(){
 
   // Non Consuming Iterator adapters
   let iter3 = iter2.map(|x| x+1);
+  let iter4 = arr.iter().map(|x| x+1);
   // More examples -> .filter()
 
   for element in iter3{
     print!("{element} ");
   }
+
+  let new_arr: Vec<i32> = iter4.collect();
+  println!("New Vector Produced -> {:?}", new_arr);
+
 }

@@ -2,6 +2,7 @@ mod string_slice;
 mod vector_examples;
 mod hashmap_examples;
 mod iterator_examples;
+mod strings_example;
 
 fn main() {
     // Sample Code to take input >> 
@@ -22,6 +23,6 @@ fn main() {
     //     let input: i32 = input.trim().parse().expect("Integer input accepted only!");
     //     arr.push(input);
     // }
-    iterator_examples::_example7();
+    strings_example::create_mod_string();
 }
 
