@@ -4,6 +4,7 @@ mod hashmap_examples;
 mod iterator_examples;
 mod strings_example;
 mod generics_examples;
+mod traits_examples;
 
 fn main() {
     // Sample Code to take input >> 
@@ -25,6 +26,6 @@ fn main() {
     //     arr.push(input);
     // }
 
-    generics_examples::compare_values();
+    traits_examples::_example1();
 }
 
