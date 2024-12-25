@@ -1,4 +1,4 @@
-pub fn create_mod_string(){
+pub fn _create_mod_string(){
   // Create String in rust
   let mut str =  String::from("Goodbye");
   println!("String creation Step -> {str}");

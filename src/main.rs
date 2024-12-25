@@ -3,6 +3,7 @@ mod vector_examples;
 mod hashmap_examples;
 mod iterator_examples;
 mod strings_example;
+mod generics_examples;
 
 fn main() {
     // Sample Code to take input >> 
@@ -23,6 +24,7 @@ fn main() {
     //     let input: i32 = input.trim().parse().expect("Integer input accepted only!");
     //     arr.push(input);
     // }
-    strings_example::create_mod_string();
+
+    generics_examples::compare_values();
 }
 
