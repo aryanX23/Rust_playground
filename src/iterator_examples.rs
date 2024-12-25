@@ -81,3 +81,25 @@ pub fn _example6(){
   // Cannot do this here -> 
   // println!("{:?}", arr);
 }
+
+pub fn _example7(){
+
+  let arr = vec![1,2,3,4,5,6,7,8,9];
+
+
+  let iter1 = arr.iter();
+
+  // This is consuming iterator adapter, cant use this iterator again
+  let sum: i32 = iter1.sum();
+  println!("Sum of Array -> {sum}");
+
+  let iter2 = arr.iter();
+
+  // Non Consuming Iterator adapters
+  let iter3 = iter2.map(|x| x+1);
+  // More examples -> .filter()
+
+  for element in iter3{
+    print!("{element} ");
+  }
+}

@@ -22,6 +22,6 @@ fn main() {
     //     let input: i32 = input.trim().parse().expect("Integer input accepted only!");
     //     arr.push(input);
     // }
-    
+    iterator_examples::_example7();
 }
 
