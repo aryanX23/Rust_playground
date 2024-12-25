@@ -1,4 +1,4 @@
-pub fn even_filter(arr: Vec<i32>) -> Vec<i32>{
+pub fn _even_filter(arr: Vec<i32>) -> Vec<i32>{
   let mut res_arr = Vec::new();
 
   for ele in arr{
