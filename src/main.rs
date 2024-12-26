@@ -6,6 +6,7 @@ mod strings_example;
 mod generics_examples;
 mod traits_examples;
 mod lifetimes_examples;
+mod threads_exmples;
 
 fn main() {
     // Sample Code to take input >> 
@@ -27,6 +28,6 @@ fn main() {
     //     arr.push(input);
     // }
 
-    lifetimes_examples::example_1();
+    threads_exmples::_calculate_factorial_sum();
 }
 
