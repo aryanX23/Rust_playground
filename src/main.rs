@@ -5,6 +5,7 @@ mod iterator_examples;
 mod strings_example;
 mod generics_examples;
 mod traits_examples;
+mod lifetimes_examples;
 
 fn main() {
     // Sample Code to take input >> 
@@ -26,6 +27,6 @@ fn main() {
     //     arr.push(input);
     // }
 
-    traits_examples::_example1();
+    lifetimes_examples::example_1();
 }
 
